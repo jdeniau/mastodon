@@ -21,6 +21,7 @@ class Instance < ApplicationRecord
     belongs_to :unavailable_domain # skipcq: RB-RL1031
   end
 
+  scope :searchable, -> { where.not(domain: DomainBlock.select(:domain)) }
   scope :matches_domain, ->(value) { where(arel_table[:domain].matches("%#{value}%")) }
 
   def self.refresh

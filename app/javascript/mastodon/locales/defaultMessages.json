@@ -2571,12 +2571,12 @@
   {
     "descriptors": [
       {
-        "defaultMessage": "Copied",
-        "id": "copypaste.copied"
+        "defaultMessage": "Domain of your home server, e.g. mastodon.social",
+        "id": "interaction_modal.login.prompt"
       },
       {
-        "defaultMessage": "Copy",
-        "id": "copypaste.copy"
+        "defaultMessage": "Take me home",
+        "id": "interaction_modal.login.action"
       },
       {
         "defaultMessage": "Reply to {name}'s post",
@@ -2615,24 +2615,16 @@
         "id": "sign_in_banner.create_account"
       },
       {
-        "defaultMessage": "Since Mastodon is decentralized, you can use your existing account hosted by another Mastodon server or compatible platform if you don't have an account on this one.",
-        "id": "interaction_modal.preamble"
+        "defaultMessage": "You are not signed in. Where is your account hosted?",
+        "id": "interaction_modal.sign_in"
       },
       {
-        "defaultMessage": "On this server",
-        "id": "interaction_modal.on_this_server"
+        "defaultMessage": "Tip: It's the second half of your username.",
+        "id": "interaction_modal.sign_in_hint"
       },
       {
-        "defaultMessage": "Sign in",
-        "id": "sign_in_banner.sign_in"
-      },
-      {
-        "defaultMessage": "On a different server",
-        "id": "interaction_modal.on_another_server"
-      },
-      {
-        "defaultMessage": "Copy and paste this URL into the search field of your favourite Mastodon app or the web interface of your Mastodon server.",
-        "id": "interaction_modal.other_server_instructions"
+        "defaultMessage": "Not on Mastodon?",
+        "id": "interaction_modal.no_account_yet"
       }
     ],
     "path": "app/javascript/mastodon/features/interaction_modal/index.json"

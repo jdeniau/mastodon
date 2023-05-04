@@ -11,6 +11,7 @@ module Mastodon
     # Indices are sorted by amount of data to be expected in each, so that
     # smaller indices can go online sooner
     INDICES = [
+      InstancesIndex,
       AccountsIndex,
       TagsIndex,
       StatusesIndex,
